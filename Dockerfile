@@ -1,5 +1,5 @@
 FROM java
 COPY AdiFirstJava.java .
-RUN javac AdiFirstJava.java
+RUN /bin/sh -c javac AdiFirstJava.java
 CMD ["java","AdiFirstJava"]
 
